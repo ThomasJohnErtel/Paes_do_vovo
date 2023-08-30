@@ -1,0 +1,317 @@
+body {
+	min-height: 2000px;
+}
+
+
+body, p, a {
+	font-family: "Josefin Sans", sans-serif;
+}
+h1, h2, h3, h4 {
+	font-family: "Amatic SC", cursive;
+	color: #7F5539;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+header.site-header {
+	padding: 20px 0;
+	background-color: #fff;
+}
+header.site-header .col-brand {
+	display: flex;
+	align-items: center;
+}
+header.site-header .col-navbar {
+	display: flex;
+	justify-content: center;
+}
+header.site-header .col-cta {
+	display: flex;
+	justify-content: flex-end;
+}
+header.site-header ul.navbar-nav li.nav-item .nav-link {
+	text-transform: uppercase;
+	color: #7F5539;
+	font-weight: 500;
+	font-size: 16px;
+}
+header.site-header .col-cta a.btn {
+	text-transform: uppercase;
+	color: #7F5539;
+	border: 2px solid #7F5539;
+	font-size: 16px;
+	padding: 10px 15px 8px;
+}
+
+section.section-intro {
+	position: relative;
+	min-height: 85vh;
+	background-image: url("../imgs/foto-banner-intro.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+section.section-intro .section-intro-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,0.3) 0%, rgba(0,0,0,0.75) 100%);
+}
+
+section.section-intro h1 {
+	color: #fff;
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+}
+
+section.section-intro p {
+	color: #efefef;
+	font-size: 18px;
+	text-align: center;
+}
+
+a.section-intro-cta {
+	padding: 12px 25px 10px;
+	background-color: #DDB892;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+a.section-intro-cta:hover {
+	background-color: #7F5539;
+	color: #DDB892;
+}
+
+.section-intro-content-container {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.section-intro-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 512px;
+}
+
+.feature-box {
+	box-sizing: border-box;
+	padding: 50px 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+img.feature-image {
+	max-width: 64px;
+	margin-bottom: 10px;
+	display: block;
+}
+h3.feature-title {
+	font-weight: 600;
+	color: #7F5539;
+}
+p.feature-text {
+	color: #909090;
+}
+section.section-about {
+	padding: 90px 0;
+	background-image: url("../imgs/fundo-textura-paes.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+section.section-about .col-4 {
+	padding: 0 15px;
+}
+.about-image-column {
+	text-align: right;
+}
+img.about-image {
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid #7F5539;
+}
+a.about-btn {
+	background-color: rgba(0,0,0,0);
+	color: #7F5539;
+	border: 2px solid #7F5539;
+	font-size: 16px;
+	padding: 8px 12px 6px;
+}
+a.about-btn:hover {
+	background-color: #7F5539;
+	color: #DDB892;
+}
+section.section-products {
+	padding: 60px 0;
+}
+.section-products-intro {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.section-products-intro h2 {
+	font-size: 48px;
+}
+.product-card {
+	position: relative;
+	margin-bottom: 70px;
+	max-width: 400px;
+	padding: 0 15px;
+}
+.product-card .vegan-label {
+	position: absolute;
+	top: -28px;
+	right: -10px;
+}
+.product-title {
+	margin: 20px 0 12px;
+}
+.product-image {
+	border-radius: 10px;
+	width: 100%;
+}
+a.product-btn {
+	background-color: #DDB892;
+	color: #4E240C;
+}
+a.product-btn:hover {
+	background-color: #4E240C;
+	color: #DDB892;
+}
+.product-ingredients {
+	padding: 15px;
+	background-color: #FDE9D5;
+	border: 1px solid #7F5539;
+	color: #7F5539;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.product-ingredients h4{
+	font-family: "Josefin Sans";
+	font-size: 14px;
+}
+.product-ingredients p {
+	margin-bottom: 0;
+}
+
+
+/*  */
+
+
+.centralize {
+    text-align: center;
+}
+
+.section-tips, .section-testimonials, .section-order-now {
+	padding: 70px 0;
+}
+
+.borda {
+    border: 3px solid #7F5539;
+    border-radius: 5px;
+}
+
+.background {
+    background-image: url("../imgs/fundo-textura-paes.jpg");
+}
+
+#title-tips {
+    padding: 40px;
+}
+
+.padding-tips {
+    padding: 18px;
+}
+
+.iconeteste {
+    width: 100px;
+    height: 100px;
+}
+
+#title-depositions {
+    padding-bottom: 80px;
+}
+
+#title-order {
+    padding-bottom: 0px;
+    padding-right: 65px;
+}
+
+#p-order {
+    text-align: justify;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	top: 20%;
+}
+
+.flecha {
+    width: 40px;
+    height: 40px;
+    color: #7F5539;
+    border: 2px solid #623E3E;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+#carouselExampleIndicators {
+    padding-bottom: 80px;
+}
+
+#carouselExampleIndicators .indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #B08968;
+}
+
+#carouselExampleIndicators .indicator.active {
+    background-color: #B08968;
+}
+.col-order-content {
+	text-align: left;
+}
+.col-order-image img {
+	width: 100%;
+}
+.section-order-now .col-4 {
+	padding: 15px;
+}
+.section-order-now h2, .section-tips h2, .section-testimonials h2 {
+	font-size: 40px;
+}
+
+.section-tips img{
+	width: 100%;
+}
+.section-tips h3 {
+	margin: 15px 0 12px;
+}
+.button-tips {
+    background-color: #7F5539;
+    color: #FFFFFF;
+}
+
+.button-order-now {
+    background-color: #B08968;
+    color: #FFFFFF;
+    padding: 12px 10px;
+}
+
+footer {
+    background-color: #4E240C;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+footer .title {
+    color: #fff;
+}
+
+
